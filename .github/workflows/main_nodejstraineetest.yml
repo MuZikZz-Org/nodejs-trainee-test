@@ -18,13 +18,13 @@ jobs:
         - name: Checkout Code
           uses: actions/checkout@v2
 
-        - name: SonarQube Scan
+        - name: SonarQube Scan Test1
           uses: kitabisa/sonarqube-action@master
           with:
                host: "4.194.13.61:9000"
                login: ${{ secrets.SONARQUBE_TOKEN }}
 
-        - name: SonarQube Scan
+        - name: SonarQube Scan Test2 (Official)
           uses: sonarsource/sonarqube-scan-action@master
           env:
                 SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
