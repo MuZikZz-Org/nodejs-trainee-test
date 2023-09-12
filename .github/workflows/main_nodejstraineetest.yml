@@ -28,7 +28,7 @@ jobs:
              echo "::set-output name=PROJECT_KEY::web-project"
              echo "::set-output name=PROJECT_NAME::web-project"
              echo "::set-output name=DESTINATION_DIR::/home/runner/work/nodejs-trainee-test/nodejs-trainee-test"
-             echo "::set-output name=REPOSITORY_URL::https://github.com/MuZikZz-Org/hello-nodejs-trainee-test"
+             echo "::set-output name=REPOSITORY_URL::https://github.com/MuZikZz-Org/nodejs-trainee-test"
     
         - name: Run SonarQube Scanner
           uses: MuZikZz-Org/.github/workflow-templates/sonarqube@main
