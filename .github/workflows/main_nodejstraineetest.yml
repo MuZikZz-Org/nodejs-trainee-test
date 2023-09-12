@@ -25,8 +25,8 @@ jobs:
         run: |
           # npm init
           npm install
-          node server.js
-          # npm run build --if-present
+          # node server.js
+          npm run build --if-present
           # npm run test --if-present
 
       - name: Upload artifact for deployment job
