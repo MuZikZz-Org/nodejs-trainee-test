@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm init
+          npm init -y
           # npm install -D webpack-cli -y
           # npm install
           # node server.js
