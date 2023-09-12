@@ -23,9 +23,10 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          npm inint
           npm install
-          npm install express
-          npm run build --if-present
+          node server.js
+          # npm run build --if-present
           # npm run test --if-present
 
       - name: Upload artifact for deployment job
